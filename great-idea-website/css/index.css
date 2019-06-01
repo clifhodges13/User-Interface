@@ -80,8 +80,13 @@ body {
 
 nav {
 	display: inline-block;
-	width: 100%;
+	width: 100vw;
 	height: auto;
+	background: linear-gradient(to bottom left, lightgreen, lightblue);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 2;
 }
 
 nav a {
@@ -89,15 +94,26 @@ nav a {
 	font-size: .75rem;
 	text-decoration: none;
 	color: #666;
-	margin: 3rem 4rem 0 0;
+	margin: 2rem 4rem 0 0;
+	padding: .5rem 1rem;
+	transition: all .4s;
+}
+
+nav a:first-child {
+	margin-left: 5rem;
 }
 
 nav a:last-child {
 	margin-right: 0;
 }
 
+nav a:hover {
+	border-bottom: 40px solid white;
+	color: white;
+}
+
 .logo {
-	margin: 2rem 0;
+	margin: 2rem 5rem;
 	float: right;
 }
 
@@ -107,6 +123,7 @@ nav a:last-child {
 .heading {
 	width: 100%;
 	padding: 2rem 0;
+	margin-top: 6rem;
 }
 
 .heading__cta {
@@ -124,6 +141,13 @@ nav a:last-child {
 	background: transparent;
 	border: 1px solid black;
 	padding: .25rem 2.25rem;
+	transition: all .3s;
+}
+
+.heading__cta-btn:hover {
+	border-radius: 10px;
+	background: lightgreen;
+	color: black;
 }
 
 .heading img {
