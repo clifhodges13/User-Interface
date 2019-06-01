@@ -94,7 +94,9 @@ nav a {
 	font-size: .75rem;
 	text-decoration: none;
 	color: #666;
-	margin: 3rem 4rem 0 0;
+	margin: 2rem 4rem 0 0;
+	padding: .5rem 1rem;
+	transition: all .4s;
 }
 
 nav a:first-child {
@@ -103,6 +105,11 @@ nav a:first-child {
 
 nav a:last-child {
 	margin-right: 0;
+}
+
+nav a:hover {
+	border-bottom: 40px solid white;
+	color: white;
 }
 
 .logo {
