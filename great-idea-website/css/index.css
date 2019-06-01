@@ -64,3 +64,114 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* ////////////////////// */
+
+/* General */
+
+
+body {
+	max-width: 880px;
+	margin: 0 auto;
+}
+
+
+/* Navigation */
+
+nav {
+	display: inline-block;
+	width: 100%;
+	height: auto;
+}
+
+nav a {
+	display: inline-block;
+	font-size: .75rem;
+	text-decoration: none;
+	color: #666;
+	margin: 3rem 4rem 0 0;
+}
+
+nav a:last-child {
+	margin-right: 0;
+}
+
+.logo {
+	margin: 2rem 0;
+	float: right;
+}
+
+
+/* Heading */
+
+.heading {
+	width: 100%;
+	padding: 2rem 0;
+}
+
+.heading__cta {
+	display: inline-block;
+	width: 50%;
+	margin: 0 auto;
+	padding-bottom: 2rem;
+	font-size: 80px;
+	text-align: center;
+}
+
+.heading__cta-btn {
+	font-size: 1.2rem;
+	color: #666;
+	background: transparent;
+	border: 1px solid black;
+	padding: .25rem 2.25rem;
+}
+
+.heading img {
+	display: inline-block;
+	width: 49%;
+}
+
+
+/* Main content */
+
+main {
+	width: 100%;
+}
+
+.feature-box {
+	display: inline-block;
+	padding: 2rem .5rem 2rem 0;
+}
+
+.feature-box:nth-child(2) {
+	padding-right: 0;
+}
+
+.box-a {
+	width: 49%;
+}
+
+.box-b {
+	width: 33%;
+}
+
+.middle-img {
+	width: 100%;
+	margin: 2rem 0;
+}
+
+
+/* Footer */
+
+footer {
+	width: 100%;
+	margin-bottom: 4rem;
+}
+
+footer address {
+	margin: 2rem 0;
+}
+
+.copyright {
+	text-align: center;
+}
